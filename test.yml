@@ -1,5 +1,5 @@
 # vi test.yml
-- hosts: windows
+- hosts: all
   tasks:
     - win_user:
         name: user01
