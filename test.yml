@@ -1,0 +1,10 @@
+# vi test.yml
+- hosts: windows
+  tasks:
+    - win_user:
+        name: ksawada1979
+        password: xxxxxx
+        state: present
+        groups:
+          - Administrators
+          - Users
