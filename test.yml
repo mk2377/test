@@ -2,8 +2,8 @@
 - hosts: windows
   tasks:
     - win_user:
-        name: ksawada1979
-        password: xxxxxx
+        name: user01
+        password: KUtu0001
         state: present
         groups:
           - Administrators
