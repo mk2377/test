@@ -1,6 +1,5 @@
 ---
-- name: sample
-  hosts: all
+- hosts: all
   gather_facts: no
   collections:
     - ansible.builtin
