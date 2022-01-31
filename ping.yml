@@ -1,5 +1,5 @@
 - name: sample
-  hosts: 192.168.41.14
+  hosts:all
   gather_facts: no
   collections:
     - ansible.builtin
